@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GistHubBLog</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Nav section -->
+    <header>
+      <nav class="bg-[] border border-b-black">
+        <!-- Logo -->
+        <div class="flex justify-center items-center">
+          <h1 class="flex text-6xl">
+            Gist<span><h1 class="text-6xl bg-red-500 mt-2">Hub</h1></span>
+          </h1>
+        </div>
+        <section class="flex justify-between items-center">
+          <!-- Nav links -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="md:hidden lucide lucide-align-justify"
+          >
+            <line x1="3" x2="21" y1="6" y2="6" />
+            <line x1="3" x2="21" y1="12" y2="12" />
+            <line x1="3" x2="21" y1="18" y2="18" />
+          </svg>
+
+          <ul class="hidden lg:flex gap-5 text-2xl ml-5">
+            <li><a href="#"> Sports</a></li>
+            <li><a href="#"> Fashion</a></li>
+            <li><a href="#"> News</a></li>
+            <li><a href="#"> Travels</a></li>
+            <li><a href="#"> Politics</a></li>
+          </ul>
+
+          <!-- Search bar -->
+          <div
+            class="flex border border-black p-2 rounded-lg items-center gap-1 max-w-[150px] w-full mb-7 mr-5"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="black"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-search"
+            >
+              <circle cx="11" cy="11" r="8" />
+              <path d="m21 21-4.3-4.3" />
+            </svg>
+            <input
+              type="text"
+              placeholder="Search"
+              class="w-full outline-none text-black"
+            />
+          </div>
+        </section>
+      </nav>
+    </header>
+    <!-- Nav section ends here -->
+
+    <!-- Hero section -->
+
+    <!-- Advert section -->
+    <div class="flex gap-3 justify-center items-center bg-black mx-14 mt-5">
+      <img
+        src="gomycode-logo.png"
+        class="h-48 border-r-4 border-white my-3"
+        alt="sw"
+      />
+      <p class="hidden md:flex text-5xl text-white">TRANSITION TO TECH TODAY</p>
+    </div>
+
+    <!-- Posts Section -->
+    <section
+      class="flex flex-col sm:justify-center md:justify-center md:items-center lg:flex-row items-start mt-8"
+    >
+      <!-- Trending Posts -->
+      <div
+        class="hidden md:flex container flex-col items-center justify-center"
+      >
+        <h3 class="text-5xl mb-5 flex">
+          TREN
+          <span><h3 class="text-5xl bg-red-500 mt-2">DING</h3></span>
+        </h3>
+        <div
+          class="flex flex-col md:flex-row gap-10 mx-10 items-center justify-center lg:flex-col"
+        >
+          <div>
+            <img src="corvette.jpg" class="rounded-full w-96 h-96" alt="" />
+            <p class="text-center text-xl mt-5 max-w-96">
+              Some dude crashed a 250million Naira rented stingray
+            </p>
+          </div>
+          <div>
+            <img
+              src="iphone16.jpg"
+              class="rounded-full w-96 h-96 mt-16"
+              alt=""
+            />
+            <p class="text-center text-xl mt-5 max-w-96">
+              Apple with yet another scam release of the same phone with new
+              colors, its cool still.
+            </p>
+          </div>
+          <div>
+            <img
+              src="Bola-Ahmed-Tinubu-scaled.jpg"
+              class="rounded-full w-96 h-96 mt-16"
+              alt=""
+            />
+            <p class="text-center text-xl mt-5 max-w-96">
+              T-pain, T-bag, Declan-rice, i just say make i hail you sir, a huce
+              haka
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Category Section -->
+      <section
+        class="sm:ml-5 mt-10 flex flex-row md:flex-col gap-4 text-white justify-center items-center"
+      >
+        <div id="cat1" class="new- flex flex-col justify-center items-center">
+          <h3 class="text-6xl">MUSIC</h3>
+          <p class="text-center font-bold text-xl">
+            Dive into the world of music with our latest music news from all
+            genres
+          </p>
+        </div>
+        <div id="cat2" class="new-- flex flex-col justify-center items-center">
+          <h3 class="text-6xl">SPORTS</h3>
+          <p class="text-center font-bold text-xl">
+            Dive into the world of Sports with our latest sports news from all
+            leagues across the world
+          </p>
+        </div>
+
+        <div id="cat3" class="new--- flex flex-col justify-center items-center">
+          <h3 class="text-6xl">FASHION</h3>
+          <p class="text-center font-bold text-xl">
+            You are still policing what people wear in big 2024? YES I AM!!!
+            what are those
+          </p>
+        </div>
+      </section>
+
+      <!-- Recent Posts Section -->
+      <section class="flex container flex-col items-center justify-center">
+        <h3 class="text-5xl mb-5 flex">
+          LA
+          <span><h3 class="text-5xl bg-red-500 mt-2">TEST</h3></span>
+        </h3>
+        <div class="ml-14">
+          <h6 class="text-md mt-2 text-red-500">News:</h6>
+          <p class="text-start text-xl mb-4">
+            Israel has launched air strikes on southern Lebanon as Hezbollah
+            leader Hassan Nasrallah condemns this week’s fatal exploding devices
+            attacks
+          </p>
+          <div class="flex gap-5 border-b-2 text-gray-400">
+            <p>4 hours ago</p>
+            <p class="border-l-2 pl-5">Lebanon</p>
+          </div>
+        </div>
+        <div class="ml-14">
+          <h6 class="text-md mt-2 text-red-500">News:</h6>
+          <p class="text-start text-xl mb-4">
+            Live updates and build-up to Arsenal's first game of the Champions
+            League's new league format against Atalanta.
+          </p>
+          <div class="flex gap-5 border-b-2 text-gray-400">
+            <p>5 hours ago</p>
+            <p class="border-l-2 pl-5">London</p>
+          </div>
+        </div>
+        <div class="ml-14">
+          <h6 class="text-md mt-2 text-red-500">News:</h6>
+          <p class="text-start text-xl mb-4">
+            As fashion month continues, the trailblazing supermodel talks 90s
+            nostalgia, career gambles, and embracing getting older.
+          </p>
+          <div class="flex gap-5 border-b-2 text-gray-400">
+            <p>5 hours ago</p>
+            <p class="border-l-2 pl-5">Naij</p>
+          </div>
+        </div>
+        <div class="ml-14">
+          <h6 class="text-md mt-2 text-red-500">News:</h6>
+          <p class="text-start text-xl mb-4">
+            OceanGate specialist Renata Rojas said she saw five smiling faces
+            boarding the sub before it began its descent to the Titanic.
+          </p>
+          <div class="flex gap-5 border-b-2 text-gray-400">
+            <p>11 hours ago</p>
+            <p class="border-l-2 pl-5">Fools Avenue</p>
+          </div>
+        </div>
+        <div class="ml-14">
+          <h6 class="text-md mt-2 text-red-500">News:</h6>
+          <p class="text-start text-xl mb-4">
+            Inter Milan's Francesco Acerbi jokingly asked Manchester City star
+            Erling Haaland for two shirts - but why do players do it and what
+            eventually happens to the shirts?
+          </p>
+          <div class="flex gap-5 border-b-2 text-gray-400">
+            <p>18 hours ago</p>
+            <p class="border-l-2 pl-5">Italy</p>
+          </div>
+        </div>
+        <div class="ml-14">
+          <h6 class="text-md mt-2 text-red-500">News:</h6>
+          <p class="text-start text-xl mb-4">
+            Edmundo Gonzalez claims he was coerced into recognising President
+            Nicolás Maduro's victory in disputed elections.
+          </p>
+          <div class="flex gap-5 border-b-2 text-gray-400">
+            <p>20 hours ago</p>
+            <p class="border-l-2 pl-5">Canada</p>
+          </div>
+        </div>
+        <div class="ml-14">
+          <h6 class="text-md mt-2 text-red-500">News:</h6>
+          <p class="text-start text-xl mb-4">
+            ASAKE to headline his first ever event in the Maddison Square
+            Garden, New York
+          </p>
+          <div class="flex gap-5 border-b-2 text-gray-400">
+            <p>22 hours ago</p>
+            <p class="border-l-2 pl-5">New York</p>
+          </div>
+        </div>
+        <div class="ml-14">
+          <h6 class="text-md mt-2 text-red-500">News:</h6>
+          <p class="text-start text-xl mb-4">
+            Israel has launched air strikes on southern Lebanon as Hezbollah
+            leader Hassan Nasrallah condemns this week’s fatal exploding devices
+            attacks
+          </p>
+          <div class="flex gap-5 border-b-2 text-gray-400">
+            <p>24 hours ago</p>
+            <p class="border-l-2 pl-5">Canada</p>
+          </div>
+        </div>
+        <!-- Newsletter Subscription Section -->
+        <div
+          class="bg-red-500 p-6 rounded-lg shadow-lg w-96 mt-7 sm:justify-center items-center"
+        >
+          <h2 class="text-2xl font-bold mb-4 text-center">
+            Subscribe to our Newsletter
+          </h2>
+          <form>
+            <div class="mb-4">
+              <label for="email" class="block text-gray-700 font-semibold mb-2"
+                >Email Address:</label
+              >
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                class="w-full px-4 py-2 border rounded-lg"
+              />
+            </div>
+            <button
+              type="submit"
+              class="w-full bg-black text-white font-bold py-2 rounded-lg hover:bg-black"
+            >
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </section>
+    </section>
+
+    <!-- Featured Post Section -->
+    <section
+      class="flex flex-col justify-center items-center gap-10 mt-20 mb-10"
+    >
+      <h3 class="text-4xl mb-5 flex">
+        SWEET
+        <span><h3 class="text-4xl bg-red-500 mt-2">SPOTS</h3></span>
+      </h3>
+      <div class="flex flex-col md:flex-row gap-10">
+        <!-- Card 1 -->
+        <div class="">
+          <img src="spot.jpg" class="w-[25rem] h-[20rem]" alt="" />
+          <h3 class="text-3xl">Jabi</h3>
+          <p class="text-xl max-w-96">
+            Spend the holiday with your family at waterfront Jabi
+          </p>
+        </div>
+        <!-- Card 2 -->
+        <div class="">
+          <img src="disney.jpg" class="w-[25rem] h-[20rem]" alt="" />
+          <h3 class="text-3xl">Disney Utako</h3>
+          <p class="text-xl max-w-96">
+            Kids destination, disney Utako amusement park
+          </p>
+        </div>
+        <!-- Card 3 -->
+        <div class="">
+          <img src="bnb.jpg" class="w-[25rem] h-[20rem]" alt="" />
+          <h3 class="text-3xl">Kuje</h3>
+          <p class="text-xl max-w-96">
+            Spend the holiday with your family at our Air BnB in kuje
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hero section ends here -->
+
+    <!-- Footer section -->
+    <section class="flex items-center gap-44 border-t-8 border-red-500">
+      <div class="flex flex-col">
+        <p class="font-bold">© 2024 GistHub. All rights reserved</p>
+        <p class="">
+          GistHub is not responsible for the content of external sites and news
+          culled therefrom.
+        </p>
+      </div>
+      <div class="flex gap-3 mt-4 pt-2 text-red-500 text-2xl">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-solid fa-phone"></i>
+      </div>
+    </section>
+    <!-- Footer section ends here -->
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/a61736af53.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+  </body>
+</html>

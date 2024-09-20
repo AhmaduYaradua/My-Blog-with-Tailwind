@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Unlock&display=swap");
+li {
+  font-family: "Unlock", serif;
+}
+h1 {
+  font-family: "Unlock", serif;
+}
+/* Background Styling for Category cards */
+.new- {
+  background-image: linear-gradient(
+      45deg,
+      rgba(232, 124, 49, 0.7),
+      rgba(79, 0, 11, 0.7)
+    ),
+    url("jcole-vc.jpg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 500px;
+  height: 500px;
+}
+.new-- {
+  background-image: linear-gradient(
+      45deg,
+      rgba(232, 124, 49, 0.7),
+      rgba(79, 0, 11, 0.7)
+    ),
+    url("Sports.jpg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 500px;
+  height: 500px;
+}
+.new--- {
+  background-image: linear-gradient(
+      45deg,
+      rgba(35, 70, 120, 0.7),
+      rgba(184, 12, 19, 0.7)
+    ),
+    url("Fashion.jpg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 500px;
+  height: 500px;
+}
+/* Background styling for Category cards ends here */
+
+/* Extra Styling for category cards */
+@media screen and (max-width: 765px) {
+  #cat1 {
+    background-image: linear-gradient(
+        45deg,
+        rgba(232, 124, 49, 0.7),
+        rgba(79, 0, 11, 0.7)
+      ),
+      url("jcole-vc.jpg");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 220px;
+    height: 280px;
+  }
+}
+@media screen and (max-width: 765px) {
+  #cat2 {
+    background-image: linear-gradient(
+        45deg,
+        rgba(232, 124, 49, 0.7),
+        rgba(79, 0, 11, 0.7)
+      ),
+      url("Sports.jpg");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 220px;
+    height: 280px;
+  }
+}
+@media screen and (max-width: 765px) {
+  #cat3 {
+    background-image: linear-gradient(
+        45deg,
+        rgba(35, 70, 120, 0.7),
+        rgba(184, 12, 19, 0.7)
+      ),
+      url("Fashion.jpg");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 220px;
+    height: 280px;
+  }
+}
+/* Extra styling for category cards ends here */
